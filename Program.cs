@@ -22,7 +22,7 @@ namespace anaFinder {
             }
 
             string path = args[0];
-            string word = args[1];
+            string word = args[1].ToLower();
             string[] anagrams;
             string result;
 
@@ -58,7 +58,7 @@ namespace anaFinder {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             using (var reader = new System.IO.StreamReader(path, System.Text.Encoding.GetEncoding("iso-8859-4"))) {
                 while (!reader.EndOfStream) {
-                    s = reader.ReadLine();
+                    s = reader.ReadLine().ToLower();
                     // Let's first check if lengths match
                     if (s.Length == word.Length) {
                         // Sort characters in a found word
