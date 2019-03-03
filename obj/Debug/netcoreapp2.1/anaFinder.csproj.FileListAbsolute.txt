@@ -1,0 +1,11 @@
+c:\GitHub\anaFinder\anaFinder\bin\Debug\netcoreapp2.1\anaFinder.deps.json
+c:\GitHub\anaFinder\anaFinder\bin\Debug\netcoreapp2.1\anaFinder.runtimeconfig.json
+c:\GitHub\anaFinder\anaFinder\bin\Debug\netcoreapp2.1\anaFinder.runtimeconfig.dev.json
+c:\GitHub\anaFinder\anaFinder\bin\Debug\netcoreapp2.1\anaFinder.dll
+c:\GitHub\anaFinder\anaFinder\bin\Debug\netcoreapp2.1\anaFinder.pdb
+c:\GitHub\anaFinder\anaFinder\obj\Debug\netcoreapp2.1\anaFinder.csproj.CoreCompileInputs.cache
+c:\GitHub\anaFinder\anaFinder\obj\Debug\netcoreapp2.1\anaFinder.AssemblyInfoInputs.cache
+c:\GitHub\anaFinder\anaFinder\obj\Debug\netcoreapp2.1\anaFinder.AssemblyInfo.cs
+c:\GitHub\anaFinder\anaFinder\obj\Debug\netcoreapp2.1\anaFinder.dll
+c:\GitHub\anaFinder\anaFinder\obj\Debug\netcoreapp2.1\anaFinder.pdb
+c:\GitHub\anaFinder\anaFinder\obj\Debug\netcoreapp2.1\anaFinder.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+c:\GitHub\anaFinder\anaFinder\bin\release\netcoreapp2.1\linux-x64\libhostpolicy.so
+c:\GitHub\anaFinder\anaFinder\bin\release\netcoreapp2.1\linux-x64\libhostfxr.so
+c:\GitHub\anaFinder\anaFinder\bin\release\netcoreapp2.1\linux-x64\anaFinder
+c:\GitHub\anaFinder\anaFinder\bin\release\netcoreapp2.1\linux-x64\anaFinder.deps.json
+c:\GitHub\anaFinder\anaFinder\bin\release\netcoreapp2.1\linux-x64\anaFinder.runtimeconfig.json
+c:\GitHub\anaFinder\anaFinder\bin\release\netcoreapp2.1\linux-x64\anaFinder.runtimeconfig.dev.json
+c:\GitHub\anaFinder\anaFinder\bin\release\netcoreapp2.1\linux-x64\anaFinder.dll
+c:\GitHub\anaFinder\anaFinder\bin\release\netcoreapp2.1\linux-x64\anaFinder.pdb
+c:\GitHub\anaFinder\anaFinder\obj\release\netcoreapp2.1\linux-x64\anaFinder.csprojAssemblyReference.cache
+c:\GitHub\anaFinder\anaFinder\obj\release\netcoreapp2.1\linux-x64\anaFinder.csproj.CoreCompileInputs.cache
+c:\GitHub\anaFinder\anaFinder\obj\release\netcoreapp2.1\linux-x64\anaFinder.AssemblyInfoInputs.cache
+c:\GitHub\anaFinder\anaFinder\obj\release\netcoreapp2.1\linux-x64\anaFinder.AssemblyInfo.cs
+c:\GitHub\anaFinder\anaFinder\obj\release\netcoreapp2.1\linux-x64\anaFinder.dll
+c:\GitHub\anaFinder\anaFinder\obj\release\netcoreapp2.1\linux-x64\anaFinder.pdb
