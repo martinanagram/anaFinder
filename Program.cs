@@ -54,31 +54,20 @@ namespace anaFinder {
             // Sort all characters in a word
             string sortedWord = String.Concat(word.OrderBy(c => c).ToArray());
 
-            // Create regular expression to match all characters that exist in a source word
-            string reg = "^";
-            foreach (char x in sortedWord.ToCharArray()) {
-                reg += "(?=.*" + x.ToString() + ")";
-            }
-            Regex re = new Regex(reg, RegexOptions.IgnoreCase);
-
             string s;
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-
             using (var reader = new System.IO.StreamReader(path, System.Text.Encoding.GetEncoding("iso-8859-4"))) {
                 while (!reader.EndOfStream) {
                     s = reader.ReadLine();
+                    // Let's first check if lengths match
                     if (s.Length == word.Length) {
-                        // If regex and word length matches
-                        if (re.IsMatch(s)) {
-                            // Sort characters in a found word
-                            string sortedLine = String.Concat(s.OrderBy(c => c).ToArray());
-                            // If it matches the source word, add it to found words list
-                            if (sortedLine == sortedWord) {
-                                foundWords.Add(s);
-                            }
+                        // Sort characters in a found word
+                        string sortedLine = String.Concat(s.OrderBy(c => c).ToArray());
+                        // If it matches the source word, add it to found words list
+                        if (sortedLine == sortedWord) {
+                            foundWords.Add(s);
                         }
                     }
-
                 }
             }
 
